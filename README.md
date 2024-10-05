@@ -7,7 +7,9 @@ Our team has developed an Photo Booth Web Application designed to capture and sh
 
 The original Repository we are challenged with is : https://github.com/CodersClubIT/Photo-Booth
 
+## Video Demo Link
 
+https://tinyurl.com/TCE-NSS-Photo-Booth
 
 ## Features (inc Improvements)
 
@@ -76,4 +78,5 @@ Members:
 - Kaushik ram
 - Pradeep
 - Jeyadevan
+
 
