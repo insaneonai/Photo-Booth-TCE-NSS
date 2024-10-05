@@ -5,6 +5,10 @@ import 'dotenv/config';
 import express from 'express';
 import * as Minio from 'minio';
 
+// eslint-disable-next-line no-unused-vars
+import * as database from './src/database/db.js';
+import PhotoBooth from './src/models/PhotoBooth.js';
+
 const app=express();
 const port=5000;
 app.use(cors());
@@ -33,6 +37,10 @@ app.post('/upload-image', async (req,res)=>{
     });
 
     const imageUrl = await minioClient.presignedUrl('GET', process.env.bucketName, fileName, 24*60*60);
+
+    const photoObject = new PhotoBooth({photoUrl: imageUrl});
+
+    await photoObject.save();
 
     res.status(200).send({imageUrl});
 

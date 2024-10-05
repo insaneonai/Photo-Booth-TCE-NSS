@@ -59,7 +59,7 @@ export function NavBar() {
               />
             </Stack>
             <Button color="inherit" sx={{fontFamily: "livvic", display: {xs: "none", md: "block"}}}>
-              <a href = "/about" target='_blank'>About Team!</a>
+              <a href="/about">About us!</a>
             </Button>
             <Button color="inherit" sx={{fontFamily: "livvic"}}>
               <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeCGpscYZB59Cuaq3pryvl1SjAodbp-Trq6U04YtJ5gOfwedA/viewform" target='_blank'>Join Us!</a>
