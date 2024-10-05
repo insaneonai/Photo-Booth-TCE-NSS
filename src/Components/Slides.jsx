@@ -25,7 +25,7 @@ export function SlideOne() {
           {Logo}
         </Typography>
         <Box display="flex" justifyContent="center">
-        <img src="/public/nss_logo.png" height="100px" width="100px"/>
+        <img src="/public/nss_logo.png" height="100px" width="100px" alt="NSS"/>
         </Box>
         <Typography variant="h6" sx={{fontFamily: "livvic", color: "black", margin: "15px"}}>
           NSS Goals

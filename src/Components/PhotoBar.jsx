@@ -92,7 +92,7 @@ export function PhotoBar() {
         }
         requestAnimationFrame(detectFaces);
     }, [detector]);
-    
+
     React.useEffect(() => {
         if (isPopupVisible && detector) {
             const animationFrameId = requestAnimationFrame(detectFaces);
@@ -269,9 +269,9 @@ export function PhotoBar() {
             <canvas id="custom" style={{ height: "50vh", width: "90%", margin: "20px", display: "none", objectFit: "contain", marginBottom: "0px"}}></canvas>
             {
                 !frameAdded ?
-                 <img id="capture" src={imageRef.current} style={{ height: "43vh", width: "90%", margin: "20px"}} /> 
+                 <img id="capture" src={imageRef.current} style={{ height: "43vh", width: "90%", margin: "20px"}} alt="capture"/> 
                 :
-                <img id="capture" src={framedImageRef.current} style={{ height: "43vh", width: "90%", margin: "20px"}} />  
+                <img id="capture" src={framedImageRef.current} style={{ height: "43vh", width: "90%", margin: "20px"}} alt="capture"/>  
             }
             {
             !frameAdded &&
@@ -287,7 +287,7 @@ export function PhotoBar() {
                     <img src="/public/frame2.jpg" height="100px" width="80px" alt="Frame 2" />
                 </Button>
                 <Button sx={{ fontFamily: "livvic", textAlign: "center", backgroundColor: "aliceblue", fontWeight: "900" }} onClick={addFrameThree}>
-                    <img src="/public/frame3.jpg" height="100px" width="80px" alt="Frame 2" />
+                    <img src="/public/frame3.jpg" height="100px" width="80px" alt="Frame 3" />
                 </Button>
                 </Stack>
             </>
@@ -302,19 +302,19 @@ export function PhotoBar() {
                     Share Now 🚀!
                 </Typography>
                 <Stack direction="row" padding="5px">
-                    <EmailShareButton url={imageURL} subject="Check out this cool photo!" body="Hey! I just customized this photo using the NSS app!">
+                    <EmailShareButton url={imageURL} subject="Check out this cool photo from TCE NSS!" body="Hey! I am now part of TCE NSS!">
                         <EmailIcon size={32} round={true} />
                     </EmailShareButton>
-                    <WhatsappShareButton url={imageURL} title="Check out this cool photo!" >
+                    <WhatsappShareButton url={imageURL} title="Check out this cool photo from TCE NSS!" >
                         <WhatsappIcon size={32} round={true} />
                     </WhatsappShareButton>
-                    <FacebookShareButton url={imageURL} quote="Check out this cool photo!">
+                    <FacebookShareButton url={imageURL} quote="Check out this cool photo from TCE NSS!">
                         <FacebookIcon size={32} round={true} />
                     </FacebookShareButton>
-                    <TwitterShareButton url={imageURL} title="Check out this cool photo!">
+                    <TwitterShareButton url={imageURL} title="Check out this cool photo from TCE NSS!">
                         <TwitterIcon size={32} round={true} />
                     </TwitterShareButton>
-                    <LinkedinShareButton url={imageURL} title="Check out this cool photo!">
+                    <LinkedinShareButton url={imageURL} title="Check out this cool photo from TCE NSS!">
                         <LinkedinIcon size={32} round={true} />
                     </LinkedinShareButton>
                 </Stack>

@@ -20,7 +20,7 @@ export function NavBar() {
               href='https://tce.edu/'
               sx={{ mr: 2, display: {"xs": "none", "md": "inherit"}}}
             >
-            <img src="/public/tce_logo.png" height="40px"/>
+            <img src="/public/tce_logo.png" height="40px" alt="TCE"/>
   
             </IconButton>
             <IconButton
@@ -31,7 +31,7 @@ export function NavBar() {
               href = "https://www.tce.edu/student/nss"
               sx={{ mr: 2 }}
             >
-            <img src="/public/nss_logo.png" height="40px"/>
+            <img src="/public/nss_logo.png" height="40px" alt="NSS"/>
   
             </IconButton>
             <Stack sx={{flexGrow: 1}} direction="row" gap={0.5}>

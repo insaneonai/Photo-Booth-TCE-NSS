@@ -8,7 +8,7 @@ export default function AboutUs(){
             </div>
             <h1>Nanga Thaan Sokars Squad 🏢⚒️🧑‍🏭</h1>
             <div style={{display: "flex", justifyContent: "center"}}>
-                <img src="/public/about-us.jpg" style={{height: "70vh"}} />
+                <img src="/public/about-us.jpg" style={{height: "70vh"}} alt="About us"/>
             </div>
             <div style={{display: "flex", justifyContent: "center", flexDirection: "row"}}>
                 <h4>Team Members!</h4>
