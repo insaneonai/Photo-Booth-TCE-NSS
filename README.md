@@ -40,13 +40,13 @@ Install dependencies
   npm install
 ```
 
-Setup .env
+Setup .env (visit: https://play.min.io:9443/ with credentials minioadmin:minioadmin for more...)
 
 ```bash
-endPoint=YOUR MINIO END POINT
-accessKey=YOUR MINIO ACCESS KEY
-secretKey=YOUR MINIO SECRET KEY
-bucketName=BUCKET NAME
+endPoint=YOUR MINIO ENDPOINT (eg: play.min.io)
+accessKey=YOUR MINIO ACCESS KEY (eg: N2NMiv88bp196V2dOJAF)
+secretKey=YOUR MINIO SECRET KEY (eg: YF6XoDgbOcaIMIyOsN0av6d0zz0xyTF15ieUPtSM)
+bucketName=BUCKET NAME (eg: nss-images)
 ```
 
 Setup CONSTANTS.js
