@@ -63,7 +63,7 @@ Start the server
 ## 🚀 About Us
 Team Name: Sokar Squad 🤡
 
-
+![alt text](/public/about-us.jpg)
 
 Members: 
 - Thayumanavan
