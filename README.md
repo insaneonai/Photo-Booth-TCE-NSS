@@ -23,7 +23,7 @@ The original Repository we are challenged with is : https://github.com/CodersClu
 Clone the project
 
 ```bash
-  git clone 
+  git clone https://github.com/insaneonai/Photo-Booth-TCE-NSS.git
 ```
 
 Go to the project directory
@@ -63,7 +63,7 @@ Start the server
 ## 🚀 About Us
 Team Name: Sokar Squad 🤡
 
-
+![alt text](/public/about-us.jpg)
 
 Members: 
 - Thayumanavan
