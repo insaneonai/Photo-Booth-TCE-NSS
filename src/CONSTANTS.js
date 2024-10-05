@@ -12,4 +12,4 @@ export const goals = "Develop among themselves a sense of social and civic respo
 
 export const Aim = "National Service Scheme (NSS) was introduced in 1969 with the primary objective of developing the personality and character of the student youth through voluntary community service. 'Education through Service' is the purpose of the NSS The broad objectives of NSS are to: (i) understand the community in which they work (ii) understand themselves in relation to their community; (iii) identify the needs and problems of the community and involve them in problem solving process; (iv) develop among themselves a sense of social and civic responsibility; "
 
-export const DB_URL = "mongodb+srv://ByteLinguists:F1RaoqTpVV0TNLtZ@cluster0.6bmoo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+export const DB_URL = ""

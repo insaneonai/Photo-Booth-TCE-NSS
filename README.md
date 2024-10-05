@@ -53,10 +53,16 @@ Setup CONSTANTS.js
 DB_URL="YOUR MONGO DB URL SRV"
 ```
 
-Start the server
+Start the vite app
 
 ```bash
   npm run dev
+```
+
+Start the server
+
+```bash
+  node server.js
 ```
 
 
