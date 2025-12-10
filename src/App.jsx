@@ -8,7 +8,7 @@ import { NavBar } from './Components/NavBar.jsx';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+//It is main 
 
 function App() {
   return (
